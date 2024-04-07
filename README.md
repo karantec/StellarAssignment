@@ -1,8 +1,24 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project aims to implement a dashboard using React.js based on the provided Figma design. The dashboard will have two design options to choose from - Metrics or Transformation Plan. The chosen design will be brought to life with interactive components and visualizations using React.js. The project offers flexibility in data sourcing, allowing the use of Google Sheets, locally hardcoded data in JSON or CSV format, or any other convenient option.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Setup Instructions:
+
+Clone the repository to your local machine.
+
+bash
+Copy code
+https://github.com/karantec/StellarAssignment.git
+Navigate to the project directory.
+
+bash
+cd react-dashboard
+Install dependencies.
+
+Copy code
+npm install
+Start the development server.
+
+Copy code
+npm run dev
