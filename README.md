@@ -7,8 +7,7 @@ Setup Instructions:
 
 Clone the repository to your local machine.
 
-bash
-Copy code
+
 https://github.com/karantec/StellarAssignment.git
 Navigate to the project directory.
 
