@@ -12,48 +12,48 @@ const people = [
   },
   {
     name: "/Fixed Rate",
-    views: "872,337 (15.82%)",
-    pageview: "574,332 (15,33%)",
-    time: "00:05:43",
-    ext: "802,873 (16.73%)",
-    exist: "25.96%",
-    value: "$1,093 (5.11%)",
+    views: "803,792 (14.39%)",
+    pageview: "456,792 (13.39%)",
+    time: "00:05:24",
+    ext: "793,982 (15.64%)",
+    exist: "76.13%",
+    value: "$6,792 (36.16%)",
   },
   {
     name: "/Cycle Time",
-    views: "872,337 (15.82%)",
-    pageview: "574,332 (15,33%)",
-    time: "00:05:43",
-    ext: "802,873 (16.73%)",
-    exist: "25.96%",
-    value: "$1,093 (5.11%)",
+    views: "740,702 (13.46%)",
+    pageview: "405,860 (13.25%)",
+    time: "00:04:36",
+    ext: "684,873 (14.33%)",
+    exist: "41.54%",
+    value: "$702 (3.47%)",
   },
   {
     name: "/Lead time",
-    views: "872,337 (15.82%)",
-    pageview: "574,332 (15,33%)",
-    time: "00:05:43",
-    ext: "802,873 (16.73%)",
-    exist: "25.96%",
-    value: "$1,093 (5.11%)",
+    views: "676,659 (10.29%)",
+    pageview: "340,765 (11.70%)",
+    time: "00:04:12",
+    ext: "638,982 (13.02%)",
+    exist: "46.42%",
+    value: "$2,659 (11.64%)",
   },
   {
     name: "/New Feature",
-    views: "872,337 (15.82%)",
-    pageview: "574,332 (15,33%)",
-    time: "00:05:43",
-    ext: "802,873 (16.73%)",
-    exist: "25.96%",
-    value: "$1,093 (5.11%)",
+    views: "508,837 (7.74%)",
+    pageview: "317,543 (10.66%)",
+    time: "00:04:11",
+    ext: "555,982 (10.44%)",
+    exist: "27.40%",
+    value: "$4,508 (23.43%)",
   },
   {
     name: "/Ready Feature",
-    views: "872,337 (15.82%)",
-    pageview: "574,332 (15,33%)",
-    time: "00:05:43",
-    ext: "802,873 (16.73%)",
-    exist: "25.96%",
-    value: "$1,093 (5.11%)",
+    views: "495,938 (7.38%)",
+    pageview: "310,554 (10.58%)",
+    time: "00:02:56",
+    ext: "297,303 (6.07%)",
+    exist: "28.89%",
+    value: "$495 (7.38%)",
   },
 ];
 
@@ -63,9 +63,9 @@ export function Table() {
       <section className="mx-auto w-full max-w-7xl px-4 py-4">
         <div className="flex flex-col space-y-4 gap-3 md:flex-row md:items-center md:justify-between md:space-y-0">
           <div>
-            <select className="text-slate-400 " name="" id="">
+            <select className="text-black " name="" id="">
               <option
-                className="text-slate-400 rounded-lg border border-slate-300"
+                className="text-black rounded-lg border border-slate-300"
                 value=""
               >
                 PAGEVIEWS
@@ -106,11 +106,11 @@ export function Table() {
                         scope="col"
                         className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
                       >
-                        <span>Page</span>
+                        <span className="text-black font-bold">Page</span>
                       </th>
                       <th
                         scope="col"
-                        className="px-12 py-3.5 text-left text-sm font-normal text-gray-700"
+                        className="px-12 py-3.5 text-left text-sm font-bold text-black "
                       >
                         PageViews <br />
                         <span>356,928</span>
@@ -157,7 +157,7 @@ export function Table() {
 
                       <th
                         scope="col"
-                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                        className="px-4 py-3.5 text-left text-sm font-bold text-black"
                       >
                         Unique pageViews <br />
                         <span>275,588</span> <br />
@@ -203,7 +203,7 @@ export function Table() {
 
                       <th
                         scope="col"
-                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                        className="px-4 py-3.5 text-left text-sm font-bold text-black"
                       >
                         Avg time on page <br />
                         <span>00:03:52</span> <br />
@@ -248,7 +248,7 @@ export function Table() {
                       </th>
                       <th
                         scope="col"
-                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                        className="px-4 py-3.5 text-left text-sm font-bold text-black"
                       >
                         Extrances <br />
                         <span>315,643</span> <br />
@@ -293,7 +293,7 @@ export function Table() {
                       </th>
                       <th
                         scope="col"
-                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                        className="px-4 py-3.5 text-left text-sm font-bold text-black"
                       >
                         % Exit <br />
                         <span>39,84%</span> <br />
@@ -338,7 +338,7 @@ export function Table() {
                       </th>
                       <th
                         scope="col"
-                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                        className="px-4 py-3.5 text-left text-sm font-bold text-black"
                       >
                         Page Value <br />
                         <span>$19.983</span> <br />
@@ -409,18 +409,18 @@ export function Table() {
                           </div>
                           
                         </td>
-                        <td className="whitespace-nowrap px-4 py-4">
+                        <td className="whitespace-nowrap px-4 py-4 text-black">
                           <span >
                             {person.pageview}
                           </span>
                         </td>
-                        <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-700">
+                        <td className="whitespace-nowrap px-4 py-4 text-sm text-black">
                           {person.time}
                         </td>
-                        <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-700">
+                        <td className="whitespace-nowrap px-4 py-4 text-sm text-black">
                           {person.ext}
                         </td>
-                        <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-700">
+                        <td className="whitespace-nowrap px-4 py-4 text-sm text-black">
                           {person.exist}
                         </td>
                         <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-700">
